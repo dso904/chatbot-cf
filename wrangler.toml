@@ -6,3 +6,4 @@ command = "npm run build"
 
 [pages]
 build_output_dir = ".svelte-kit/cloudflare"
+pages_build_output_dir = ".svelte-kit/cloudflare"  # Add this line
