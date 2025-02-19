@@ -1,1 +1,6 @@
+name = "my-sveltekit-chatbot"
 compatibility_flags = ["nodejs_compat"]
+
+# ✅ Required for Cloudflare Pages
+[build]
+pages_build_output_dir = ".svelte-kit/cloudflare"
